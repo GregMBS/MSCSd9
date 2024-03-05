@@ -31,35 +31,15 @@
             referrerpolicy="no-referrer"></script>
     <style>
         .map {
-            width: 45%;
-            height: 45%;
+            width: 90%;
             float: right;
             clear: right;
-            margin-right: 5%
-        }
-
-        .tab {
-            width: 40%;
-            height: 100%;
-            float: left;
-            clear: left;
-            padding: 0;
-            margin-left: 5%;
-        }
-
-        #zipTable th, #zipTable td {
-            padding: 0;
-            margin: 0;
-            font-size: larger;
-        }
-
-        .table-hover > tbody > tr:hover > td {
-            background-color: yellow;
+            margin: 5%
         }
     </style>
-    <title>Shelby County Redistricting 2021</title>
+    <title>MSCS District 9</title>
 </head>
-<body>
+<bohy>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="https://www.gmbs-consulting.com/">GMBS Consulting</a>
@@ -77,87 +57,206 @@
         <div class="collapse navbar-collapse" id="navbarNav"></div>
     </div>
 </nav>
-<label for="version">Map version:</label>
-<select id="version" onchange="redrawMap()">
-    <option value="1C1">1C1</option>
-    <option value="2A1">2A1</option>
-    <option value="3A1">3A1</option>
-    <option value="4A3" selected="selected">4A3</option>
-</select>
-<h1 style="text-align: center">GMBS Redistricting Demo</h1>
-<!-- Plotly chart will be drawn inside this DIV -->
-<div id="myTab" class="tab">
-    <table id='zipTable' class="table table-bordered table-minimized table-hover">
-        <thead>
-        <tr class="table-dark" id="tableHead">
-        </tr>
-        </thead>
-        <tbody id="tableData">
-        </tbody>
-    </table>
-</div>
+<h1 style="text-align: center">MSCS District 9</h1>
 <div id="rMap" class="map"></div>
 <script>
-    let names = ['1C1', '2A1', '3A1', '4A3']
-    let maps = []
-
-    names.forEach(n => {
-        Plotly.d3.json('../maps/'+n+'.geojson', m => {
-            maps[n] = m;
-            drawMap(n);
+    Plotly.d3.json('../maps/Census Tracts.geojson', function(error0, m) {
+        const fig = m;
+        Plotly.d3.json("../maps/P4_data.json", function(error1, d) {
+            const dat = d;
+            Plotly.d3.json('../maps/d9Schools.geojson', function(error2, p) {
+                const schools = p;
+                Plotly.d3.json('../maps/MSCSdistrict9.geojson', function(error3, b) {
+                    drawMap(fig, dat, schools, b)
+                })
+            })
         })
     })
 
-    function loadTableData(csv) {
-        const tableHR = document.getElementById("tableHead");
-        tableHR.innerHTML = '';
-        const tableD = document.getElementById("tableData");
-        tableD.innerHTML = '';
-        if (csv[0]) {
-            let head = Object.keys(csv[0]);
-            let i = 0;
-            head.forEach(function (key) {
-                let th = tableHR.insertCell();
-                let keyLabel = makeLabel(key);
-                th.outerHTML = "<th scope='col' style='text-align: center' onClick='sortTable(" + i + ")'>" + keyLabel + "</th>";
-                i++;
-            })
-            csv.forEach((data) => {
-                    let row = tableD.insertRow();
-                    Object.keys(data).forEach(function (key) {
-                        let cell = row.insertCell();
-                        cell.innerHTML = dataFormat(data[key]);
-                        cell.style.textAlign = 'center';
-                    })
-                }
-            )
+    function drawMap(f, d, s, b) {
+        let color = {
+            'B': 0,
+            'W': 1
         }
-    }
-
-
-    function drawMap(n) {
-        let map = maps[n]
-        let color = map.properties.color
-        let voters = [{
-            type: 'choropleth',
-            geojson: map,
-            z: color
-        }];
-
-        let layout = {
-            geo: {
-                scope: 'usa',
-                fitbounds: 'locations',
+        let x = [];
+        let z = [];
+        let n = [];
+        let bx = [];
+        let by = [];
+        let wx = [];
+        let wy = [];
+        let hx = [];
+        let hy = [];
+        let sx = [];
+        let sy = [];
+        let dx = [];
+        let dy = [];
+        /** @param {{GEO_ID: string, Race: string}} d[] **/
+/*
+        d.forEach((row) => {
+            x.push(row.GEO_ID.toString());
+            z.push(color[row.Race]);
+            r.push(row.Race);
+        })
+*/
+        f.features.forEach((tract) => {
+            if (tract.properties['P$_Calc_Race'] === 'B') {
+                let bArray = tract.geometry.coordinates[0];
+                bArray.forEach((line) => {
+                    line.forEach((point) => {
+                        bx.push(point[0]);
+                        by.push(point[1]);
+                    })
+                })
+                bx.push('none');
+                by.push('none');
             }
+            if (tract.properties['P$_Calc_Race'] === 'W') {
+                let wArray = tract.geometry.coordinates[0];
+                wArray.forEach((line) => {
+                    line.forEach((point) => {
+                        wx.push(point[0]);
+                        wy.push(point[1]);
+                    })
+                })
+                wx.push('none');
+                wy.push('none');
+            }
+        })
+        f.features.forEach((tract) => {
+            if (tract.properties['P$_Calc_H'] > 25) {
+                let hArray = tract.geometry.coordinates[0];
+                hArray.forEach((line) => {
+                    line.forEach((point) => {
+                        hx.push(point[0]);
+                        hy.push(point[1]);
+                    })
+                })
+                hx.push('none');
+                hy.push('none');
+            }
+        })
+        s.features.forEach((school) => {
+            n.push(school.properties.NAME);
+            sx.push(school.geometry.coordinates[0]);
+            sy.push(school.geometry.coordinates[1]);
+        })
+        b.features.forEach((shape) => {
+            let bArray = shape.geometry.coordinates[0];
+            bArray.forEach((line) => {
+                line.forEach((point) => {
+                    dx.push(point[0]);
+                    dy.push(point[1]);
+                })
+            })
+        })
+
+        const tracts = {
+            type: 'choroplethmapbox',
+            geojson: f,
+            featureidkey: 'properties.GEOID',
+            locations: x,
+            z: z,
+            colorscale: 'RdBu',
+            marker: {
+                opacity: 0.5
+            },
+            name: 'Race'
         };
 
-        Plotly.newPlot('rMap', voters, layout);
-    }
+        const schools = {
+            type: 'scattermapbox',
+            mode: 'markers',
+            text: n,
+            lon: sx,
+            lat: sy,
+            marker: {
+                size: 7,
+                color: 'yellow'
+            },
+            name: 'Schools'
+        };
 
-    function redrawMap() {
-        let v = Document.getElementById('version');
-        let n = v.value;
-        drawMap(n);
+        const district = {
+            type: 'scattermapbox',
+            mode: 'markers',
+            fill: 'toself',
+            lon: dx,
+            lat: dy,
+            opacity: 0.2,
+            marker: {
+                size: 1,
+                color: 'black'
+            },
+            name: 'District'
+        };
+
+        const hisp = {
+            type: 'scattermapbox',
+            mode: 'markers',
+            fill: 'toself',
+            lon: hx,
+            lat: hy,
+            opacity: 0.5,
+            marker: {
+                size: 1,
+                color: 'black'
+            },
+            name: 'Hispanic'
+        };
+
+        const black = {
+            type: 'scattermapbox',
+            mode: 'markers',
+            fill: 'toself',
+            lon: bx,
+            lat: by,
+            opacity: 0.25,
+            marker: {
+                size: 1,
+                color: 'blue'
+            },
+            name: 'Black'
+        };
+
+        const white = {
+            type: 'scattermapbox',
+            mode: 'markers',
+            fill: 'toself',
+            lon: wx,
+            lat: wy,
+            opacity: 0.25,
+            marker: {
+                size: 1,
+                color: 'red'
+            },
+            name: 'White'
+        };
+
+        let rMapLayout = {
+            autosize: false,
+            width: 1000,
+            height: 1000,
+            mapbox: {
+                style: "open-street-map",
+                center: {
+                    lat: 35.1,
+                    lon: -89.9
+                },
+                zoom: 11
+            },
+            coloraxis: {
+                colorbar: {
+                    nticks: 0
+                }
+            }
+        };
+        // Plotly.setPlotConfig({
+        //     mapboxAccessToken: "pk.eyJ1IjoiZ21ic2NvbnN1bHRpbmciLCJhIjoiY2x0YnQybDM2MXA2ZjJxbXR1dXI5MG1zYiJ9.C6PUjzI7LITOZxVBidxg7g"
+        // })
+        Plotly.newPlot('rMap', [black, white, hisp], rMapLayout);
+        Plotly.addTraces('rMap', [schools]);
+        Plotly.addTraces('rMap', [district]);
     }
 
 </script>
@@ -165,9 +264,5 @@
         type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
 ></script>
-<script
-        type="text/javascript"
-        src="../js/navbar.js"
-></script>
-</body>
+</bohy>
 </html>

@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="d9schools" id="d9schools">
+	<SimpleField name="FID_1" type="int"></SimpleField>
+	<SimpleField name="SCHL_ID" type="int"></SimpleField>
+	<SimpleField name="TYPE" type="string"></SimpleField>
+	<SimpleField name="SCHOOL_CAT" type="string"></SimpleField>
+	<SimpleField name="GRADE_LOW" type="int"></SimpleField>
+	<SimpleField name="GRADE_HIGH" type="int"></SimpleField>
+	<SimpleField name="ADDRESS" type="string"></SimpleField>
+	<SimpleField name="SCHOOLCITY" type="string"></SimpleField>
+	<SimpleField name="SCHOOLSTAT" type="string"></SimpleField>
+	<SimpleField name="SCHOOLZIP" type="string"></SimpleField>
+	<SimpleField name="SCHOOLPHON" type="string"></SimpleField>
+	<SimpleField name="PRINCIPAL" type="string"></SimpleField>
+	<SimpleField name="PRINCIPALP" type="string"></SimpleField>
+	<SimpleField name="PROG_CAP" type="int"></SimpleField>
+	<SimpleField name="CITYCOUNCI" type="int"></SimpleField>
+	<SimpleField name="MREGION" type="string"></SimpleField>
+	<SimpleField name="SREGION" type="string"></SimpleField>
+	<SimpleField name="CNTYCOMM" type="int"></SimpleField>
+	<SimpleField name="CEN_TRCT" type="string"></SimpleField>
+	<SimpleField name="SCHLBRD" type="int"></SimpleField>
+	<SimpleField name="FREGION" type="string"></SimpleField>
+	<SimpleField name="A1" type="int"></SimpleField>
+	<SimpleField name="B2" type="int"></SimpleField>
+	<SimpleField name="OBJECTID_1" type="int"></SimpleField>
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="FID_Blocks" type="int"></SimpleField>
+	<SimpleField name="GEOID10" type="string"></SimpleField>
+	<SimpleField name="ALAND10" type="float"></SimpleField>
+	<SimpleField name="AWATER10" type="float"></SimpleField>
+	<SimpleField name="STFID" type="string"></SimpleField>
+	<SimpleField name="NAME10_1" type="string"></SimpleField>
+	<SimpleField name="STATE" type="string"></SimpleField>
+	<SimpleField name="COUNTY" type="string"></SimpleField>
+	<SimpleField name="TRACT" type="string"></SimpleField>
+	<SimpleField name="BLKGRP" type="string"></SimpleField>
+	<SimpleField name="BLOCK" type="string"></SimpleField>
+	<SimpleField name="TOTALPOP" type="int"></SimpleField>
+	<SimpleField name="WHPOP" type="int"></SimpleField>
+	<SimpleField name="BLPOP" type="int"></SimpleField>
+	<SimpleField name="OTHERPOP" type="int"></SimpleField>
+	<SimpleField name="HISPOP" type="int"></SimpleField>
+	<SimpleField name="TOTALPOP18" type="int"></SimpleField>
+	<SimpleField name="WHPOP18" type="int"></SimpleField>
+	<SimpleField name="BLPOP18" type="int"></SimpleField>
+	<SimpleField name="OTHERPOP18" type="int"></SimpleField>
+	<SimpleField name="HISPOP18" type="int"></SimpleField>
+	<SimpleField name="DISTRICT" type="int"></SimpleField>
+	<SimpleField name="Shape_Leng" type="float"></SimpleField>
+	<SimpleField name="Shape_Area" type="float"></SimpleField>
+</Schema>
+<Folder><name>d9schools</name>
+  <Placemark>
+	<name>Sea Isle Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">184</SimpleData>
+		<SimpleData name="SCHL_ID">2637</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">5250 SEA ISLE</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38117</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2104</SimpleData>
+		<SimpleData name="PRINCIPAL">Renee Meeks</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2104</SimpleData>
+		<SimpleData name="PROG_CAP">493</SimpleData>
+		<SimpleData name="CITYCOUNCI">5</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">95</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">1502</SimpleData>
+		<SimpleData name="OBJECTID">18820</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570095012016</SimpleData>
+		<SimpleData name="ALAND10">265220</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570095012016</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">009501</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2016</SimpleData>
+		<SimpleData name="TOTALPOP">118</SimpleData>
+		<SimpleData name="WHPOP">108</SimpleData>
+		<SimpleData name="BLPOP">5</SimpleData>
+		<SimpleData name="OTHERPOP">5</SimpleData>
+		<SimpleData name="HISPOP">10</SimpleData>
+		<SimpleData name="TOTALPOP18">108</SimpleData>
+		<SimpleData name="WHPOP18">99</SimpleData>
+		<SimpleData name="BLPOP18">5</SimpleData>
+		<SimpleData name="OTHERPOP18">4</SimpleData>
+		<SimpleData name="HISPOP18">8</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">7617.45811945</SimpleData>
+		<SimpleData name="Shape_Area">2854972.50474</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.887306161068,35.0946038292408</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sherwood Middle</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">103</SimpleData>
+		<SimpleData name="SCHL_ID">2670</SimpleData>
+		<SimpleData name="TYPE">Middle</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Middle School</SimpleData>
+		<SimpleData name="GRADE_LOW">6</SimpleData>
+		<SimpleData name="GRADE_HIGH">8</SimpleData>
+		<SimpleData name="ADDRESS">3480 RHODES</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38111</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-4870</SimpleData>
+		<SimpleData name="PRINCIPAL">Michael Henry</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-4870</SimpleData>
+		<SimpleData name="PROG_CAP">919</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="CEN_TRCT">80</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southwest (3)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">7</SimpleData>
+		<SimpleData name="OBJECTID_1">1523</SimpleData>
+		<SimpleData name="OBJECTID">19204</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570080003003</SimpleData>
+		<SimpleData name="ALAND10">117028</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570080003003</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">008000</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3003</SimpleData>
+		<SimpleData name="TOTALPOP">124</SimpleData>
+		<SimpleData name="WHPOP">20</SimpleData>
+		<SimpleData name="BLPOP">87</SimpleData>
+		<SimpleData name="OTHERPOP">17</SimpleData>
+		<SimpleData name="HISPOP">9</SimpleData>
+		<SimpleData name="TOTALPOP18">88</SimpleData>
+		<SimpleData name="WHPOP18">13</SimpleData>
+		<SimpleData name="BLPOP18">62</SimpleData>
+		<SimpleData name="OTHERPOP18">13</SimpleData>
+		<SimpleData name="HISPOP18">5</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">4876.03233624</SimpleData>
+		<SimpleData name="Shape_Area">1259754.05941</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9462504522863,35.0997799156792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Memphis Merit Academy</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">27</SimpleData>
+		<SimpleData name="SCHL_ID">8380</SimpleData>
+		<SimpleData name="TYPE">Charter</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Charter School - ES</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">1</SimpleData>
+		<SimpleData name="ADDRESS">4775 American Way</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Hickory Hill</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">107.10</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">2651</SimpleData>
+		<SimpleData name="OBJECTID">33201</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570107101005</SimpleData>
+		<SimpleData name="ALAND10">5369</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570107101005</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010710</SimpleData>
+		<SimpleData name="BLKGRP">1</SimpleData>
+		<SimpleData name="BLOCK">1005</SimpleData>
+		<SimpleData name="TOTALPOP">0</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">0</SimpleData>
+		<SimpleData name="OTHERPOP">0</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">0</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">0</SimpleData>
+		<SimpleData name="OTHERPOP18">0</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">2598.62551571</SimpleData>
+		<SimpleData name="Shape_Area">57790.3676784</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9041019120485,35.0740085742675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Parkway Village Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">167</SimpleData>
+		<SimpleData name="SCHL_ID">2261</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">3001 GOODLETT</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2510</SimpleData>
+		<SimpleData name="PRINCIPAL">Nadiyah Mcmurray</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2510</SimpleData>
+		<SimpleData name="PROG_CAP">293</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Oakhaven/Parkway Village</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">106.10</SimpleData>
+		<SimpleData name="SCHLBRD">7</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">7</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">2727</SimpleData>
+		<SimpleData name="OBJECTID">33972</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570106102000</SimpleData>
+		<SimpleData name="ALAND10">117431</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570106102000</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010610</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2000</SimpleData>
+		<SimpleData name="TOTALPOP">137</SimpleData>
+		<SimpleData name="WHPOP">1</SimpleData>
+		<SimpleData name="BLPOP">123</SimpleData>
+		<SimpleData name="OTHERPOP">13</SimpleData>
+		<SimpleData name="HISPOP">12</SimpleData>
+		<SimpleData name="TOTALPOP18">95</SimpleData>
+		<SimpleData name="WHPOP18">1</SimpleData>
+		<SimpleData name="BLPOP18">89</SimpleData>
+		<SimpleData name="OTHERPOP18">5</SimpleData>
+		<SimpleData name="HISPOP18">5</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">5219.31174476</SimpleData>
+		<SimpleData name="Shape_Area">1264106.79015</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9224130083669,35.0668504478087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Colonial Middle</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">105</SimpleData>
+		<SimpleData name="SCHL_ID">2115</SimpleData>
+		<SimpleData name="TYPE">Middle</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Middle School</SimpleData>
+		<SimpleData name="GRADE_LOW">6</SimpleData>
+		<SimpleData name="GRADE_HIGH">8</SimpleData>
+		<SimpleData name="ADDRESS">4778 SEA ISLE</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38117</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-8980</SimpleData>
+		<SimpleData name="PRINCIPAL">Marqui G. Fifer</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-8980</SimpleData>
+		<SimpleData name="PROG_CAP">1038</SimpleData>
+		<SimpleData name="CITYCOUNCI">5</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">94</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">3373</SimpleData>
+		<SimpleData name="OBJECTID">42033</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570094002005</SimpleData>
+		<SimpleData name="ALAND10">103331</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570094002005</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">009400</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2005</SimpleData>
+		<SimpleData name="TOTALPOP">47</SimpleData>
+		<SimpleData name="WHPOP">41</SimpleData>
+		<SimpleData name="BLPOP">3</SimpleData>
+		<SimpleData name="OTHERPOP">3</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">47</SimpleData>
+		<SimpleData name="WHPOP18">41</SimpleData>
+		<SimpleData name="BLPOP18">3</SimpleData>
+		<SimpleData name="OTHERPOP18">3</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">4243.66524428</SimpleData>
+		<SimpleData name="Shape_Area">1112307.71878</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9026140749698,35.093360512361</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Colonial Hearing &amp; Visually Limited Center</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">231</SimpleData>
+		<SimpleData name="SCHL_ID">0</SimpleData>
+		<SimpleData name="TYPE">SPED</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">0</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">0</SimpleData>
+		<SimpleData name="CNTYCOMM">0</SimpleData>
+		<SimpleData name="SCHLBRD">5</SimpleData>
+		<SimpleData name="A1">0</SimpleData>
+		<SimpleData name="B2">0</SimpleData>
+		<SimpleData name="OBJECTID_1">3373</SimpleData>
+		<SimpleData name="OBJECTID">42033</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570094002005</SimpleData>
+		<SimpleData name="ALAND10">103331</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570094002005</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">009400</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2005</SimpleData>
+		<SimpleData name="TOTALPOP">47</SimpleData>
+		<SimpleData name="WHPOP">41</SimpleData>
+		<SimpleData name="BLPOP">3</SimpleData>
+		<SimpleData name="OTHERPOP">3</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">47</SimpleData>
+		<SimpleData name="WHPOP18">41</SimpleData>
+		<SimpleData name="BLPOP18">3</SimpleData>
+		<SimpleData name="OTHERPOP18">3</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">4243.66524428</SimpleData>
+		<SimpleData name="Shape_Area">1112307.71878</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9026483645953,35.0942125619562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Dunbar Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">185</SimpleData>
+		<SimpleData name="SCHL_ID">2165</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">2606 SELECT</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38114</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-5000</SimpleData>
+		<SimpleData name="PRINCIPAL">Anniece Gentry</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-5000</SimpleData>
+		<SimpleData name="PROG_CAP">379</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City W</SimpleData>
+		<SimpleData name="SREGION">Orange Mound</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="CEN_TRCT">68</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southwest (3)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">1</SimpleData>
+		<SimpleData name="OBJECTID_1">4079</SimpleData>
+		<SimpleData name="OBJECTID">50376</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570068001003</SimpleData>
+		<SimpleData name="ALAND10">57615</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570068001003</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">006800</SimpleData>
+		<SimpleData name="BLKGRP">1</SimpleData>
+		<SimpleData name="BLOCK">1003</SimpleData>
+		<SimpleData name="TOTALPOP">49</SimpleData>
+		<SimpleData name="WHPOP">2</SimpleData>
+		<SimpleData name="BLPOP">45</SimpleData>
+		<SimpleData name="OTHERPOP">2</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">44</SimpleData>
+		<SimpleData name="WHPOP18">2</SimpleData>
+		<SimpleData name="BLPOP18">40</SimpleData>
+		<SimpleData name="OTHERPOP18">2</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">3241.86278343</SimpleData>
+		<SimpleData name="Shape_Area">620199.239247</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9756241504265,35.1066690232418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Evans Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">159</SimpleData>
+		<SimpleData name="SCHL_ID">2185</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">4949 COTTONWOOD</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2504</SimpleData>
+		<SimpleData name="PRINCIPAL">Charlette Mccants</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2504</SimpleData>
+		<SimpleData name="PROG_CAP">489</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Hickory Hill</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">107.10</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">4316</SimpleData>
+		<SimpleData name="OBJECTID">53109</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570107103010</SimpleData>
+		<SimpleData name="ALAND10">170144</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570107103010</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010710</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3010</SimpleData>
+		<SimpleData name="TOTALPOP">198</SimpleData>
+		<SimpleData name="WHPOP">8</SimpleData>
+		<SimpleData name="BLPOP">125</SimpleData>
+		<SimpleData name="OTHERPOP">65</SimpleData>
+		<SimpleData name="HISPOP">61</SimpleData>
+		<SimpleData name="TOTALPOP18">145</SimpleData>
+		<SimpleData name="WHPOP18">8</SimpleData>
+		<SimpleData name="BLPOP18">86</SimpleData>
+		<SimpleData name="OTHERPOP18">51</SimpleData>
+		<SimpleData name="HISPOP18">47</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">5817.75897892</SimpleData>
+		<SimpleData name="Shape_Area">1831534.77249</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.8984310589588,35.0686970790165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Compass Community School, Orange Mound Campus</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">26</SimpleData>
+		<SimpleData name="SCHL_ID">8370</SimpleData>
+		<SimpleData name="TYPE">Charter</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Charter School - ES</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">6</SimpleData>
+		<SimpleData name="ADDRESS">2718 Lamar Avenue</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38114</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City W</SimpleData>
+		<SimpleData name="SREGION">Orange Mound</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="CEN_TRCT">68</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">7</SimpleData>
+		<SimpleData name="OBJECTID_1">6222</SimpleData>
+		<SimpleData name="OBJECTID">77700</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570068003009</SimpleData>
+		<SimpleData name="ALAND10">104038</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570068003009</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">006800</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3009</SimpleData>
+		<SimpleData name="TOTALPOP">92</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">82</SimpleData>
+		<SimpleData name="OTHERPOP">10</SimpleData>
+		<SimpleData name="HISPOP">4</SimpleData>
+		<SimpleData name="TOTALPOP18">70</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">65</SimpleData>
+		<SimpleData name="OTHERPOP18">5</SimpleData>
+		<SimpleData name="HISPOP18">2</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">5326.69651537</SimpleData>
+		<SimpleData name="Shape_Area">1119921.3362</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9719834035505,35.0971833557007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sheffield Career &amp; Technology Center</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">30</SimpleData>
+		<SimpleData name="SCHL_ID">2663</SimpleData>
+		<SimpleData name="TYPE">CTC</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Career and Technology Center</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">0</SimpleData>
+		<SimpleData name="ADDRESS">4350 CHUCK</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2340</SimpleData>
+		<SimpleData name="PRINCIPAL">Marketta Steward</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2340</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Oakhaven/Parkway Village</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">106.30</SimpleData>
+		<SimpleData name="SCHLBRD">7</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">7</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">6420</SimpleData>
+		<SimpleData name="OBJECTID">80123</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570106302000</SimpleData>
+		<SimpleData name="ALAND10">559211</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570106302000</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010630</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2000</SimpleData>
+		<SimpleData name="TOTALPOP">298</SimpleData>
+		<SimpleData name="WHPOP">6</SimpleData>
+		<SimpleData name="BLPOP">234</SimpleData>
+		<SimpleData name="OTHERPOP">58</SimpleData>
+		<SimpleData name="HISPOP">51</SimpleData>
+		<SimpleData name="TOTALPOP18">232</SimpleData>
+		<SimpleData name="WHPOP18">6</SimpleData>
+		<SimpleData name="BLPOP18">192</SimpleData>
+		<SimpleData name="OTHERPOP18">34</SimpleData>
+		<SimpleData name="HISPOP18">29</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">17221.0700575</SimpleData>
+		<SimpleData name="Shape_Area">6019740.51514</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9177913893422,35.0575719235812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sheffield High</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">133</SimpleData>
+		<SimpleData name="SCHL_ID">2660</SimpleData>
+		<SimpleData name="TYPE">High</SimpleData>
+		<SimpleData name="SCHOOL_CAT">High School</SimpleData>
+		<SimpleData name="GRADE_LOW">9</SimpleData>
+		<SimpleData name="GRADE_HIGH">12</SimpleData>
+		<SimpleData name="ADDRESS">4315 SHEFFIELD</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2370</SimpleData>
+		<SimpleData name="PRINCIPAL">Marketta Steward</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2370</SimpleData>
+		<SimpleData name="PROG_CAP">940</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Oakhaven/Parkway Village</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">106.30</SimpleData>
+		<SimpleData name="SCHLBRD">7</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">7</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">6420</SimpleData>
+		<SimpleData name="OBJECTID">80123</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570106302000</SimpleData>
+		<SimpleData name="ALAND10">559211</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570106302000</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010630</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2000</SimpleData>
+		<SimpleData name="TOTALPOP">298</SimpleData>
+		<SimpleData name="WHPOP">6</SimpleData>
+		<SimpleData name="BLPOP">234</SimpleData>
+		<SimpleData name="OTHERPOP">58</SimpleData>
+		<SimpleData name="HISPOP">51</SimpleData>
+		<SimpleData name="TOTALPOP18">232</SimpleData>
+		<SimpleData name="WHPOP18">6</SimpleData>
+		<SimpleData name="BLPOP18">192</SimpleData>
+		<SimpleData name="OTHERPOP18">34</SimpleData>
+		<SimpleData name="HISPOP18">29</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">17221.0700575</SimpleData>
+		<SimpleData name="Shape_Area">6019740.51514</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9199177888197,35.0621786272346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sheffield Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">158</SimpleData>
+		<SimpleData name="SCHL_ID">2655</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">4290 CHUCK</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2360</SimpleData>
+		<SimpleData name="PRINCIPAL">Tiffany Curry</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2360</SimpleData>
+		<SimpleData name="PROG_CAP">453</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Oakhaven/Parkway Village</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">106.30</SimpleData>
+		<SimpleData name="SCHLBRD">7</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">7</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">6420</SimpleData>
+		<SimpleData name="OBJECTID">80123</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570106302000</SimpleData>
+		<SimpleData name="ALAND10">559211</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570106302000</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010630</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2000</SimpleData>
+		<SimpleData name="TOTALPOP">298</SimpleData>
+		<SimpleData name="WHPOP">6</SimpleData>
+		<SimpleData name="BLPOP">234</SimpleData>
+		<SimpleData name="OTHERPOP">58</SimpleData>
+		<SimpleData name="HISPOP">51</SimpleData>
+		<SimpleData name="TOTALPOP18">232</SimpleData>
+		<SimpleData name="WHPOP18">6</SimpleData>
+		<SimpleData name="BLPOP18">192</SimpleData>
+		<SimpleData name="OTHERPOP18">34</SimpleData>
+		<SimpleData name="HISPOP18">29</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">17221.0700575</SimpleData>
+		<SimpleData name="Shape_Area">6019740.51514</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9207151637663,35.0575441475524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Shrine School</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">230</SimpleData>
+		<SimpleData name="SCHL_ID">0</SimpleData>
+		<SimpleData name="TYPE">SPED</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">0</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">0</SimpleData>
+		<SimpleData name="CNTYCOMM">0</SimpleData>
+		<SimpleData name="SCHLBRD">5</SimpleData>
+		<SimpleData name="A1">0</SimpleData>
+		<SimpleData name="B2">0</SimpleData>
+		<SimpleData name="OBJECTID_1">6420</SimpleData>
+		<SimpleData name="OBJECTID">80123</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570106302000</SimpleData>
+		<SimpleData name="ALAND10">559211</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570106302000</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010630</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2000</SimpleData>
+		<SimpleData name="TOTALPOP">298</SimpleData>
+		<SimpleData name="WHPOP">6</SimpleData>
+		<SimpleData name="BLPOP">234</SimpleData>
+		<SimpleData name="OTHERPOP">58</SimpleData>
+		<SimpleData name="HISPOP">51</SimpleData>
+		<SimpleData name="TOTALPOP18">232</SimpleData>
+		<SimpleData name="WHPOP18">6</SimpleData>
+		<SimpleData name="BLPOP18">192</SimpleData>
+		<SimpleData name="OTHERPOP18">34</SimpleData>
+		<SimpleData name="HISPOP18">29</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">17221.0700575</SimpleData>
+		<SimpleData name="Shape_Area">6019740.51514</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9213436494078,35.0593186006528</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Arrow Academy of Excellence</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">41</SimpleData>
+		<SimpleData name="SCHL_ID">8150</SimpleData>
+		<SimpleData name="TYPE">Charter</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Charter School - ES</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">4</SimpleData>
+		<SimpleData name="ADDRESS">645 SEMMES ROAD</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38111</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-207-1891</SimpleData>
+		<SimpleData name="PRINCIPAL">Andrea Mayfield</SimpleData>
+		<SimpleData name="PRINCIPALP">901-207-1891</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City W</SimpleData>
+		<SimpleData name="SREGION">Orange Mound</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="CEN_TRCT">70</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">7</SimpleData>
+		<SimpleData name="OBJECTID_1">6863</SimpleData>
+		<SimpleData name="OBJECTID">85552</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570070003001</SimpleData>
+		<SimpleData name="ALAND10">95670</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570070003001</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">007000</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3001</SimpleData>
+		<SimpleData name="TOTALPOP">69</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">68</SimpleData>
+		<SimpleData name="OTHERPOP">1</SimpleData>
+		<SimpleData name="HISPOP">1</SimpleData>
+		<SimpleData name="TOTALPOP18">57</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">56</SimpleData>
+		<SimpleData name="OTHERPOP18">1</SimpleData>
+		<SimpleData name="HISPOP18">1</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">6108.84134439</SimpleData>
+		<SimpleData name="Shape_Area">1029838.24614</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9613338176201,35.1143741752288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bethel Grove Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">151</SimpleData>
+		<SimpleData name="SCHL_ID">2050</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">2459 ARLINGTON</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38114</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-5012</SimpleData>
+		<SimpleData name="PRINCIPAL">Audrean Bond-Jones</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-5012</SimpleData>
+		<SimpleData name="PROG_CAP">354</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City W</SimpleData>
+		<SimpleData name="SREGION">Orange Mound</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="CEN_TRCT">69</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southwest (3)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">7</SimpleData>
+		<SimpleData name="OBJECTID_1">7953</SimpleData>
+		<SimpleData name="OBJECTID">98337</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570069002007</SimpleData>
+		<SimpleData name="ALAND10">36403</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570069002007</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">006900</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2007</SimpleData>
+		<SimpleData name="TOTALPOP">0</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">0</SimpleData>
+		<SimpleData name="OTHERPOP">0</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">0</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">0</SimpleData>
+		<SimpleData name="OTHERPOP18">0</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">2523.4860578</SimpleData>
+		<SimpleData name="Shape_Area">391856.672971</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9811407645924,35.099558398589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sherwood Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">181</SimpleData>
+		<SimpleData name="SCHL_ID">2665</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">1156 ROBIN HOOD LN</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38111</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-4864</SimpleData>
+		<SimpleData name="PRINCIPAL">Terra Stigger</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-4864</SimpleData>
+		<SimpleData name="PROG_CAP">568</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">80</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southwest (3)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">10213</SimpleData>
+		<SimpleData name="OBJECTID">125826</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570080001020</SimpleData>
+		<SimpleData name="ALAND10">61702</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570080001020</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">008000</SimpleData>
+		<SimpleData name="BLKGRP">1</SimpleData>
+		<SimpleData name="BLOCK">1020</SimpleData>
+		<SimpleData name="TOTALPOP">0</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">0</SimpleData>
+		<SimpleData name="OTHERPOP">0</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">0</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">0</SimpleData>
+		<SimpleData name="OTHERPOP18">0</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">3342.13609644</SimpleData>
+		<SimpleData name="Shape_Area">664186.470539</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9393519460888,35.1003273764332</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Willow Oaks Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">194</SimpleData>
+		<SimpleData name="SCHL_ID">2800</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">4417 WILLOW</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38117</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2196</SimpleData>
+		<SimpleData name="PRINCIPAL">Dr. Angela Nichols</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2196</SimpleData>
+		<SimpleData name="PROG_CAP">568</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">97</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">11346</SimpleData>
+		<SimpleData name="OBJECTID">140219</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570097002011</SimpleData>
+		<SimpleData name="ALAND10">108080</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570097002011</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">009700</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2011</SimpleData>
+		<SimpleData name="TOTALPOP">46</SimpleData>
+		<SimpleData name="WHPOP">11</SimpleData>
+		<SimpleData name="BLPOP">12</SimpleData>
+		<SimpleData name="OTHERPOP">23</SimpleData>
+		<SimpleData name="HISPOP">19</SimpleData>
+		<SimpleData name="TOTALPOP18">27</SimpleData>
+		<SimpleData name="WHPOP18">9</SimpleData>
+		<SimpleData name="BLPOP18">8</SimpleData>
+		<SimpleData name="OTHERPOP18">10</SimpleData>
+		<SimpleData name="HISPOP18">6</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">4476.26356786</SimpleData>
+		<SimpleData name="Shape_Area">1163439.58358</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9157922269207,35.0851491424249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cherokee Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">173</SimpleData>
+		<SimpleData name="SCHL_ID">2100</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">3061 KIMBALL</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38114</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-5028</SimpleData>
+		<SimpleData name="PRINCIPAL">Sunya Payne</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-5028</SimpleData>
+		<SimpleData name="PROG_CAP">609</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City W</SimpleData>
+		<SimpleData name="SREGION">Orange Mound</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="CEN_TRCT">81.20</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southwest (3)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">7</SimpleData>
+		<SimpleData name="OBJECTID_1">11573</SimpleData>
+		<SimpleData name="OBJECTID">143007</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570081201000</SimpleData>
+		<SimpleData name="ALAND10">43614</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570081201000</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">008120</SimpleData>
+		<SimpleData name="BLKGRP">1</SimpleData>
+		<SimpleData name="BLOCK">1000</SimpleData>
+		<SimpleData name="TOTALPOP">0</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">0</SimpleData>
+		<SimpleData name="OTHERPOP">0</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">0</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">0</SimpleData>
+		<SimpleData name="OTHERPOP18">0</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">2811.4579638</SimpleData>
+		<SimpleData name="Shape_Area">469487.169242</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9598425701268,35.0937138669923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Melrose High</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">121</SimpleData>
+		<SimpleData name="SCHL_ID">2493</SimpleData>
+		<SimpleData name="TYPE">High</SimpleData>
+		<SimpleData name="SCHOOL_CAT">High School</SimpleData>
+		<SimpleData name="GRADE_LOW">9</SimpleData>
+		<SimpleData name="GRADE_HIGH">12</SimpleData>
+		<SimpleData name="ADDRESS">2870 DEADRICK</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38114</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-5974</SimpleData>
+		<SimpleData name="PRINCIPAL">Mark Neal</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-5974</SimpleData>
+		<SimpleData name="PROG_CAP">1124</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City W</SimpleData>
+		<SimpleData name="SREGION">Orange Mound</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="CEN_TRCT">79</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southwest (3)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">7</SimpleData>
+		<SimpleData name="OBJECTID_1">11730</SimpleData>
+		<SimpleData name="OBJECTID">145152</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570079003001</SimpleData>
+		<SimpleData name="ALAND10">137455</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570079003001</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">007900</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3001</SimpleData>
+		<SimpleData name="TOTALPOP">0</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">0</SimpleData>
+		<SimpleData name="OTHERPOP">0</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">0</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">0</SimpleData>
+		<SimpleData name="OTHERPOP18">0</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">4865.14069976</SimpleData>
+		<SimpleData name="Shape_Area">1479633.22826</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.966902499314,35.1055384527628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Overton High</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">126</SimpleData>
+		<SimpleData name="SCHL_ID">2565</SimpleData>
+		<SimpleData name="TYPE">High</SimpleData>
+		<SimpleData name="SCHOOL_CAT">High School</SimpleData>
+		<SimpleData name="GRADE_LOW">9</SimpleData>
+		<SimpleData name="GRADE_HIGH">12</SimpleData>
+		<SimpleData name="ADDRESS">1770 LANIER LN</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38117</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2136</SimpleData>
+		<SimpleData name="PRINCIPAL">Gregory Billings</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2136</SimpleData>
+		<SimpleData name="PROG_CAP">1241</SimpleData>
+		<SimpleData name="CITYCOUNCI">5</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">97</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">12045</SimpleData>
+		<SimpleData name="OBJECTID">148829</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570097002000</SimpleData>
+		<SimpleData name="ALAND10">495474</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570097002000</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">009700</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2000</SimpleData>
+		<SimpleData name="TOTALPOP">71</SimpleData>
+		<SimpleData name="WHPOP">11</SimpleData>
+		<SimpleData name="BLPOP">50</SimpleData>
+		<SimpleData name="OTHERPOP">10</SimpleData>
+		<SimpleData name="HISPOP">10</SimpleData>
+		<SimpleData name="TOTALPOP18">54</SimpleData>
+		<SimpleData name="WHPOP18">10</SimpleData>
+		<SimpleData name="BLPOP18">34</SimpleData>
+		<SimpleData name="OTHERPOP18">10</SimpleData>
+		<SimpleData name="HISPOP18">9</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">14226.8592625</SimpleData>
+		<SimpleData name="Shape_Area">5333578.90823</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9049556562762,35.0828190670359</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sharpe Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">187</SimpleData>
+		<SimpleData name="SCHL_ID">2650</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">3431 SHARPE</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38111</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-5020</SimpleData>
+		<SimpleData name="PRINCIPAL">Pamela Cleaves</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-5020</SimpleData>
+		<SimpleData name="PROG_CAP">259</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">82</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southwest (3)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">12050</SimpleData>
+		<SimpleData name="OBJECTID">148918</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570082002013</SimpleData>
+		<SimpleData name="ALAND10">76891</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570082002013</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">008200</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2013</SimpleData>
+		<SimpleData name="TOTALPOP">115</SimpleData>
+		<SimpleData name="WHPOP">5</SimpleData>
+		<SimpleData name="BLPOP">69</SimpleData>
+		<SimpleData name="OTHERPOP">41</SimpleData>
+		<SimpleData name="HISPOP">44</SimpleData>
+		<SimpleData name="TOTALPOP18">78</SimpleData>
+		<SimpleData name="WHPOP18">3</SimpleData>
+		<SimpleData name="BLPOP18">59</SimpleData>
+		<SimpleData name="OTHERPOP18">16</SimpleData>
+		<SimpleData name="HISPOP18">17</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">4714.01317953</SimpleData>
+		<SimpleData name="Shape_Area">827703.625105</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9486256348346,35.0861512944749</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ridgeway High</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">131</SimpleData>
+		<SimpleData name="SCHL_ID">2615</SimpleData>
+		<SimpleData name="TYPE">High</SimpleData>
+		<SimpleData name="SCHOOL_CAT">High School</SimpleData>
+		<SimpleData name="GRADE_LOW">9</SimpleData>
+		<SimpleData name="GRADE_HIGH">12</SimpleData>
+		<SimpleData name="ADDRESS">2009 RIDGEWAY RD</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38119</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-8820</SimpleData>
+		<SimpleData name="PRINCIPAL">Jonathan Stencel</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-8820</SimpleData>
+		<SimpleData name="PROG_CAP">1356</SimpleData>
+		<SimpleData name="CITYCOUNCI">2</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Ridgeway</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">213.20</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">8</SimpleData>
+		<SimpleData name="B2">8</SimpleData>
+		<SimpleData name="OBJECTID_1">12248</SimpleData>
+		<SimpleData name="OBJECTID">151415</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570213203002</SimpleData>
+		<SimpleData name="ALAND10">902198</SimpleData>
+		<SimpleData name="AWATER10">43891</SimpleData>
+		<SimpleData name="STFID">471570213203002</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">021320</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3002</SimpleData>
+		<SimpleData name="TOTALPOP">1348</SimpleData>
+		<SimpleData name="WHPOP">396</SimpleData>
+		<SimpleData name="BLPOP">850</SimpleData>
+		<SimpleData name="OTHERPOP">102</SimpleData>
+		<SimpleData name="HISPOP">57</SimpleData>
+		<SimpleData name="TOTALPOP18">1059</SimpleData>
+		<SimpleData name="WHPOP18">367</SimpleData>
+		<SimpleData name="BLPOP18">617</SimpleData>
+		<SimpleData name="OTHERPOP18">75</SimpleData>
+		<SimpleData name="HISPOP18">49</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">15946.8568065</SimpleData>
+		<SimpleData name="Shape_Area">10184247.9466</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.8615278064201,35.0891054494306</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wooddale</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">1</SimpleData>
+		<SimpleData name="SCHL_ID">0</SimpleData>
+		<SimpleData name="TYPE">ASD Mid</SimpleData>
+		<SimpleData name="SCHOOL_CAT">ASD</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">0</SimpleData>
+		<SimpleData name="ADDRESS">3467 CASTLEMAN</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">0</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="A1">0</SimpleData>
+		<SimpleData name="B2">0</SimpleData>
+		<SimpleData name="OBJECTID_1">12672</SimpleData>
+		<SimpleData name="OBJECTID">157112</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570108102002</SimpleData>
+		<SimpleData name="ALAND10">236694</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570108102002</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010810</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2002</SimpleData>
+		<SimpleData name="TOTALPOP">152</SimpleData>
+		<SimpleData name="WHPOP">7</SimpleData>
+		<SimpleData name="BLPOP">118</SimpleData>
+		<SimpleData name="OTHERPOP">27</SimpleData>
+		<SimpleData name="HISPOP">27</SimpleData>
+		<SimpleData name="TOTALPOP18">93</SimpleData>
+		<SimpleData name="WHPOP18">4</SimpleData>
+		<SimpleData name="BLPOP18">75</SimpleData>
+		<SimpleData name="OTHERPOP18">14</SimpleData>
+		<SimpleData name="HISPOP18">13</SimpleData>
+		<SimpleData name="DISTRICT">7</SimpleData>
+		<SimpleData name="Shape_Leng">7849.57539936</SimpleData>
+		<SimpleData name="Shape_Area">2547943.98985</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.8912468651239,35.0539557702606</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Newcomer International Center</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">40</SimpleData>
+		<SimpleData name="SCHL_ID">92830</SimpleData>
+		<SimpleData name="TYPE">Alternative</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Alternative Program - HS</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">0</SimpleData>
+		<SimpleData name="ADDRESS">5151 SCOTTSDALE</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="SCHOOLPHON">-</SimpleData>
+		<SimpleData name="PRINCIPAL">Gabriela Toro</SimpleData>
+		<SimpleData name="PRINCIPALP">-</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">3</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Hickory Hill</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">108.10</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast</SimpleData>
+		<SimpleData name="A1">7</SimpleData>
+		<SimpleData name="B2">4</SimpleData>
+		<SimpleData name="OBJECTID_1">12672</SimpleData>
+		<SimpleData name="OBJECTID">157112</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570108102002</SimpleData>
+		<SimpleData name="ALAND10">236694</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570108102002</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010810</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2002</SimpleData>
+		<SimpleData name="TOTALPOP">152</SimpleData>
+		<SimpleData name="WHPOP">7</SimpleData>
+		<SimpleData name="BLPOP">118</SimpleData>
+		<SimpleData name="OTHERPOP">27</SimpleData>
+		<SimpleData name="HISPOP">27</SimpleData>
+		<SimpleData name="TOTALPOP18">93</SimpleData>
+		<SimpleData name="WHPOP18">4</SimpleData>
+		<SimpleData name="BLPOP18">75</SimpleData>
+		<SimpleData name="OTHERPOP18">14</SimpleData>
+		<SimpleData name="HISPOP18">13</SimpleData>
+		<SimpleData name="DISTRICT">7</SimpleData>
+		<SimpleData name="Shape_Leng">7849.57539936</SimpleData>
+		<SimpleData name="Shape_Area">2547943.98985</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.8919598265667,35.0571526974704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wooddale High</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">132</SimpleData>
+		<SimpleData name="SCHL_ID">2815</SimpleData>
+		<SimpleData name="TYPE">High</SimpleData>
+		<SimpleData name="SCHOOL_CAT">High School</SimpleData>
+		<SimpleData name="GRADE_LOW">9</SimpleData>
+		<SimpleData name="GRADE_HIGH">12</SimpleData>
+		<SimpleData name="ADDRESS">5151 SCOTTSDALE</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38118</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2440</SimpleData>
+		<SimpleData name="PRINCIPAL">Otis Clayton</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2440</SimpleData>
+		<SimpleData name="PROG_CAP">1130</SimpleData>
+		<SimpleData name="CITYCOUNCI">3</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Hickory Hill</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">108.10</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">7</SimpleData>
+		<SimpleData name="B2">4</SimpleData>
+		<SimpleData name="OBJECTID_1">12672</SimpleData>
+		<SimpleData name="OBJECTID">157112</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570108102002</SimpleData>
+		<SimpleData name="ALAND10">236694</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570108102002</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010810</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2002</SimpleData>
+		<SimpleData name="TOTALPOP">152</SimpleData>
+		<SimpleData name="WHPOP">7</SimpleData>
+		<SimpleData name="BLPOP">118</SimpleData>
+		<SimpleData name="OTHERPOP">27</SimpleData>
+		<SimpleData name="HISPOP">27</SimpleData>
+		<SimpleData name="TOTALPOP18">93</SimpleData>
+		<SimpleData name="WHPOP18">4</SimpleData>
+		<SimpleData name="BLPOP18">75</SimpleData>
+		<SimpleData name="OTHERPOP18">14</SimpleData>
+		<SimpleData name="HISPOP18">13</SimpleData>
+		<SimpleData name="DISTRICT">7</SimpleData>
+		<SimpleData name="Shape_Leng">7849.57539936</SimpleData>
+		<SimpleData name="Shape_Area">2547943.98985</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.8923013400222,35.0581279954438</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>South Park Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">166</SimpleData>
+		<SimpleData name="SCHL_ID">2695</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">1736 GETWELL</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38111</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-5024</SimpleData>
+		<SimpleData name="PRINCIPAL">Felicia Strickland</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-5024</SimpleData>
+		<SimpleData name="PROG_CAP">458</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">118</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">13391</SimpleData>
+		<SimpleData name="OBJECTID">165265</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570118003015</SimpleData>
+		<SimpleData name="ALAND10">156493</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570118003015</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">011800</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3015</SimpleData>
+		<SimpleData name="TOTALPOP">162</SimpleData>
+		<SimpleData name="WHPOP">26</SimpleData>
+		<SimpleData name="BLPOP">19</SimpleData>
+		<SimpleData name="OTHERPOP">117</SimpleData>
+		<SimpleData name="HISPOP">115</SimpleData>
+		<SimpleData name="TOTALPOP18">99</SimpleData>
+		<SimpleData name="WHPOP18">26</SimpleData>
+		<SimpleData name="BLPOP18">12</SimpleData>
+		<SimpleData name="OTHERPOP18">61</SimpleData>
+		<SimpleData name="HISPOP18">61</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">6377.60013428</SimpleData>
+		<SimpleData name="Shape_Area">1684581.61731</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.929516095995,35.0836273337605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hanley</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">16</SimpleData>
+		<SimpleData name="SCHL_ID">0</SimpleData>
+		<SimpleData name="TYPE">ASD Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">ASD</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">0</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">0</SimpleData>
+		<SimpleData name="CNTYCOMM">10</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="A1">0</SimpleData>
+		<SimpleData name="B2">0</SimpleData>
+		<SimpleData name="OBJECTID_1">13881</SimpleData>
+		<SimpleData name="OBJECTID">171860</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570067002012</SimpleData>
+		<SimpleData name="ALAND10">46706</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570067002012</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">006700</SimpleData>
+		<SimpleData name="BLKGRP">2</SimpleData>
+		<SimpleData name="BLOCK">2012</SimpleData>
+		<SimpleData name="TOTALPOP">9</SimpleData>
+		<SimpleData name="WHPOP">0</SimpleData>
+		<SimpleData name="BLPOP">9</SimpleData>
+		<SimpleData name="OTHERPOP">0</SimpleData>
+		<SimpleData name="HISPOP">0</SimpleData>
+		<SimpleData name="TOTALPOP18">5</SimpleData>
+		<SimpleData name="WHPOP18">0</SimpleData>
+		<SimpleData name="BLPOP18">5</SimpleData>
+		<SimpleData name="OTHERPOP18">0</SimpleData>
+		<SimpleData name="HISPOP18">0</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">2926.12979469</SimpleData>
+		<SimpleData name="Shape_Area">502763.686672</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9763101928011,35.1138775544187</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Leadership Preparatory Charter School</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">56</SimpleData>
+		<SimpleData name="SCHL_ID">8286</SimpleData>
+		<SimpleData name="TYPE">Charter</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Charter School - ES</SimpleData>
+		<SimpleData name="GRADE_LOW">0</SimpleData>
+		<SimpleData name="GRADE_HIGH">3</SimpleData>
+		<SimpleData name="ADDRESS">4190 ELLISTON ROAD</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38111</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-378-3917</SimpleData>
+		<SimpleData name="PRINCIPAL">Valissia Allen</SimpleData>
+		<SimpleData name="PRINCIPALP">901-378-3917</SimpleData>
+		<SimpleData name="PROG_CAP">0</SimpleData>
+		<SimpleData name="CITYCOUNCI">4</SimpleData>
+		<SimpleData name="MREGION">Central City E</SimpleData>
+		<SimpleData name="SREGION">Sherwood/Sea Isle</SimpleData>
+		<SimpleData name="CNTYCOMM">13</SimpleData>
+		<SimpleData name="CEN_TRCT">118</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">14255</SimpleData>
+		<SimpleData name="OBJECTID">176393</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570118003011</SimpleData>
+		<SimpleData name="ALAND10">45825</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570118003011</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">011800</SimpleData>
+		<SimpleData name="BLKGRP">3</SimpleData>
+		<SimpleData name="BLOCK">3011</SimpleData>
+		<SimpleData name="TOTALPOP">57</SimpleData>
+		<SimpleData name="WHPOP">24</SimpleData>
+		<SimpleData name="BLPOP">11</SimpleData>
+		<SimpleData name="OTHERPOP">22</SimpleData>
+		<SimpleData name="HISPOP">19</SimpleData>
+		<SimpleData name="TOTALPOP18">48</SimpleData>
+		<SimpleData name="WHPOP18">24</SimpleData>
+		<SimpleData name="BLPOP18">9</SimpleData>
+		<SimpleData name="OTHERPOP18">15</SimpleData>
+		<SimpleData name="HISPOP18">12</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">2883.6355964</SimpleData>
+		<SimpleData name="Shape_Area">493290.525609</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.9224760826857,35.0849067609071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fox Meadows Elementary</name>
+	<ExtendedData><SchemaData schemaUrl="#d9schools">
+		<SimpleData name="FID_1">201</SimpleData>
+		<SimpleData name="SCHL_ID">2215</SimpleData>
+		<SimpleData name="TYPE">Elem</SimpleData>
+		<SimpleData name="SCHOOL_CAT">Elementary School</SimpleData>
+		<SimpleData name="GRADE_LOW">-1</SimpleData>
+		<SimpleData name="GRADE_HIGH">5</SimpleData>
+		<SimpleData name="ADDRESS">2960 EMERALD</SimpleData>
+		<SimpleData name="SCHOOLCITY">Memphis</SimpleData>
+		<SimpleData name="SCHOOLSTAT">TN</SimpleData>
+		<SimpleData name="SCHOOLZIP">38115</SimpleData>
+		<SimpleData name="SCHOOLPHON">901-416-2530</SimpleData>
+		<SimpleData name="PRINCIPAL">Rhonda Howard</SimpleData>
+		<SimpleData name="PRINCIPALP">901-416-2530</SimpleData>
+		<SimpleData name="PROG_CAP">678</SimpleData>
+		<SimpleData name="CITYCOUNCI">3</SimpleData>
+		<SimpleData name="MREGION">Southeast</SimpleData>
+		<SimpleData name="SREGION">Hickory Hill</SimpleData>
+		<SimpleData name="CNTYCOMM">11</SimpleData>
+		<SimpleData name="CEN_TRCT">107.20</SimpleData>
+		<SimpleData name="SCHLBRD">9</SimpleData>
+		<SimpleData name="FREGION">Southeast (4)</SimpleData>
+		<SimpleData name="A1">9</SimpleData>
+		<SimpleData name="B2">9</SimpleData>
+		<SimpleData name="OBJECTID_1">14449</SimpleData>
+		<SimpleData name="OBJECTID">179125</SimpleData>
+		<SimpleData name="FID_Blocks">0</SimpleData>
+		<SimpleData name="GEOID10">471570107201006</SimpleData>
+		<SimpleData name="ALAND10">117811</SimpleData>
+		<SimpleData name="AWATER10">0</SimpleData>
+		<SimpleData name="STFID">471570107201006</SimpleData>
+		<SimpleData name="NAME10_1">Shelby</SimpleData>
+		<SimpleData name="STATE">47</SimpleData>
+		<SimpleData name="COUNTY">157</SimpleData>
+		<SimpleData name="TRACT">010720</SimpleData>
+		<SimpleData name="BLKGRP">1</SimpleData>
+		<SimpleData name="BLOCK">1006</SimpleData>
+		<SimpleData name="TOTALPOP">46</SimpleData>
+		<SimpleData name="WHPOP">7</SimpleData>
+		<SimpleData name="BLPOP">33</SimpleData>
+		<SimpleData name="OTHERPOP">6</SimpleData>
+		<SimpleData name="HISPOP">8</SimpleData>
+		<SimpleData name="TOTALPOP18">41</SimpleData>
+		<SimpleData name="WHPOP18">7</SimpleData>
+		<SimpleData name="BLPOP18">31</SimpleData>
+		<SimpleData name="OTHERPOP18">3</SimpleData>
+		<SimpleData name="HISPOP18">6</SimpleData>
+		<SimpleData name="DISTRICT">9</SimpleData>
+		<SimpleData name="Shape_Leng">4602.76374571</SimpleData>
+		<SimpleData name="Shape_Area">1268187.98071</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-89.8795951254649,35.0681139672226</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
