@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.min.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/style/dc.min.css"
+          integrity="sha512-t38Qn1jREPvzPvDLgIP2fjtOayaA1KKBuNpNj9BGgiMi+tGLOdvDB+aWLMe2BvokHg1OxRLQLE7qrlLo+A+MLA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- d3.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"
+            integrity="sha512-M7nHCiNUOwFt6Us3r8alutZLm9qMt4s9951uo8jqO4UwJ1hziseL6O3ndFyigx6+LREfZqnhHxYjKRJ8ZQ69DQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- dc.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dc/4.2.7/dc.min.js"
+            integrity="sha512-vIRU1/ofrqZ6nA3aOsDQf8kiJnAHnLrzaDh4ob8yBcJNry7Czhb8mdKIP+p8y7ixiNbT/As1Oii9IVk+ohSFiA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+    <style>
+        .map {
+            width: 45%;
+            height: 45%;
+            float: right;
+            clear: right;
+            margin-right: 5%
+        }
+
+        .tab {
+            width: 40%;
+            height: 100%;
+            float: left;
+            clear: left;
+            padding: 0;
+            margin-left: 5%;
+        }
+
+        #zipTable th, #zipTable td {
+            padding: 0;
+            margin: 0;
+            font-size: larger;
+        }
+
+        .table-hover > tbody > tr:hover > td {
+            background-color: yellow;
+        }
+    </style>
+    <title>Shelby County Redistricting 2021</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://www.gmbs-consulting.com/">GMBS Consulting</a>
+        <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav"></div>
+    </div>
+</nav>
+<label for="version">Map version:</label>
+<select id="version" onchange="redrawMap()">
+    <option value="1C1">1C1</option>
+    <option value="2A1">2A1</option>
+    <option value="3A1">3A1</option>
+    <option value="4A3" selected="selected">4A3</option>
+</select>
+<h1 style="text-align: center">GMBS Redistricting Demo</h1>
+<!-- Plotly chart will be drawn inside this DIV -->
+<div id="myTab" class="tab">
+    <table id='zipTable' class="table table-bordered table-minimized table-hover">
+        <thead>
+        <tr class="table-dark" id="tableHead">
+        </tr>
+        </thead>
+        <tbody id="tableData">
+        </tbody>
+    </table>
+</div>
+<div id="rMap" class="map"></div>
+<script>
+    let names = ['1C1', '2A1', '3A1', '4A3']
+    let maps = []
+
+    names.forEach(n => {
+        Plotly.d3.json('../maps/'+n+'.geojson', m => {
+            maps[n] = m;
+            drawMap(n);
+        })
+    })
+
+    function loadTableData(csv) {
+        const tableHR = document.getElementById("tableHead");
+        tableHR.innerHTML = '';
+        const tableD = document.getElementById("tableData");
+        tableD.innerHTML = '';
+        if (csv[0]) {
+            let head = Object.keys(csv[0]);
+            let i = 0;
+            head.forEach(function (key) {
+                let th = tableHR.insertCell();
+                let keyLabel = makeLabel(key);
+                th.outerHTML = "<th scope='col' style='text-align: center' onClick='sortTable(" + i + ")'>" + keyLabel + "</th>";
+                i++;
+            })
+            csv.forEach((data) => {
+                    let row = tableD.insertRow();
+                    Object.keys(data).forEach(function (key) {
+                        let cell = row.insertCell();
+                        cell.innerHTML = dataFormat(data[key]);
+                        cell.style.textAlign = 'center';
+                    })
+                }
+            )
+        }
+    }
+
+
+    function drawMap(n) {
+        let map = maps[n]
+        let color = map.properties.color
+        let voters = [{
+            type: 'choropleth',
+            geojson: map,
+            z: color
+        }];
+
+        let layout = {
+            geo: {
+                scope: 'usa',
+                fitbounds: 'locations',
+            }
+        };
+
+        Plotly.newPlot('rMap', voters, layout);
+    }
+
+    function redrawMap() {
+        let v = Document.getElementById('version');
+        let n = v.value;
+        drawMap(n);
+    }
+
+</script>
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
+></script>
+<script
+        type="text/javascript"
+        src="../js/navbar.js"
+></script>
+</body>
+</html>
